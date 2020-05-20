@@ -92,6 +92,7 @@ class Day extends Component {
         accessibilityRole={isDisabled ? undefined : 'button'}
         accessibilityLabel={this.props.accessibilityLabel}
       >
+	<Text>abc</Text>
         <Text allowFontScaling={false} style={textStyle}>{String(this.props.children)}</Text>
         {dot}
       </TouchableOpacity>
